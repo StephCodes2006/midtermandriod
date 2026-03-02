@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC0CB"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/steTVName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stephen Akanniolu"
+        android:textColor="#00008B"
+        android:textStyle="bold|italic"
+        android:textSize="20sp" />
+
+    <TextClock
+        android:id="@+id/steClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format12Hour="hh:mm:ss a"
+        android:timeZone="GMT"
+        android:textColor="#008000"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:id="@+id/steIV"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ic_launcher" /> </LinearLayout>
