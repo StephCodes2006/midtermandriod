@@ -8,7 +8,7 @@
         android:id="@+id/steTabLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:tabBackground="#FFFFE0"
+        android:background="#FFFFE0"
         app:tabIndicatorColor="#FF0000"
         app:tabIndicatorHeight="4dp"
         app:tabSelectedTextColor="#808080"
