@@ -1,3 +1,5 @@
+package stephen.midterm;
+
 // Stephen Akanniolu n01725208
 public class SteFragment extends androidx.fragment.app.Fragment {
     private int steCounter = 0;
